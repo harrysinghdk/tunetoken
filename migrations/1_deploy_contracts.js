@@ -1,7 +1,7 @@
 
-var HelloWorld = artifacts.require("MyContract2");
+var TuneToken = artifacts.require("TuneToken");
 
 module.exports = function(deployer) {
-    deployer.deploy(HelloWorld);
+    deployer.deploy(TuneToken, "TuneToken", "TT");
     // Additional contracts can be deployed here
 }
