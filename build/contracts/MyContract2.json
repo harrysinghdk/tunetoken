@@ -724,7 +724,7 @@
   "sourceMap": "56:420:0:-:0;;;;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "56:420:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;89:20;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;277:49;;;:::i;:::-;;157:74;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;372:97;;;:::i;:::-;;89:20;;;;:::o;277:49::-;318:1;309:5;;:10;;;;;;;:::i;:::-;;;;;;;;277:49::o;157:74::-;193:7;219:5;;212:12;;157:74;:::o;372:97::-;461:1;452:5;;:10;;;;;;;:::i;:::-;;;;;;;;372:97::o;7:118:1:-;94:24;112:5;94:24;:::i;:::-;89:3;82:37;72:53;;:::o;131:222::-;;262:2;251:9;247:18;239:26;;275:71;343:1;332:9;328:17;319:6;275:71;:::i;:::-;229:124;;;;:::o;359:305::-;;418:20;436:1;418:20;:::i;:::-;413:25;;452:20;470:1;452:20;:::i;:::-;447:25;;606:1;538:66;534:74;531:1;528:81;525:2;;;612:18;;:::i;:::-;525:2;656:1;653;649:9;642:16;;403:261;;;;:::o;670:191::-;;730:20;748:1;730:20;:::i;:::-;725:25;;764:20;782:1;764:20;:::i;:::-;759:25;;803:1;800;797:8;794:2;;;808:18;;:::i;:::-;794:2;853:1;850;846:9;838:17;;715:146;;;;:::o;867:77::-;;933:5;922:16;;912:32;;;:::o;950:180::-;998:77;995:1;988:88;1095:4;1092:1;1085:15;1119:4;1116:1;1109:15",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity 0.8.0;\n\ncontract MyContract2  {\n    \n    uint256 public count;\n\n    // Function to get the current count\n    function get() public view returns (uint256) {\n        return count;\n    }\n\n    // Function to increment count by 1\n    function inc() public {\n        count += 1;\n    }\n\n    // Function to decrement count by 1\n    function dec() public {\n        // This function will fail if count = 0\n        count -= 1;\n    }\n    \n}",
-  "sourcePath": "/Users/samhakimane/Projects/ds1/contracts/MyContract2.sol",
+  "sourcePath": "/Users/harrysingh/Documents/GitHub/incentivemusicplatform/contracts/MyContract2.sol",
   "ast": {
     "absolutePath": "project:/contracts/MyContract2.sol",
     "exportedSymbols": {
@@ -1039,12 +1039,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xb37EaA3Ce633C645b9340CcF6DF590b8DA7a405B",
-      "transactionHash": "0x6514b646e1b2b181571d7f77c0ebcf107ab8f37bc4d5a0ff3f5d97e2146efcbc"
+      "address": "0x7bFE1680ac185cB26b6695285eA5f12f8a8D48b0",
+      "transactionHash": "0xd51e6977c18b78975fb0ca4b9fe7b4deba12be2f73a35fd7f091ef7f762ec73c"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2024-05-11T12:29:45.573Z",
+  "updatedAt": "2024-05-11T12:53:04.517Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
